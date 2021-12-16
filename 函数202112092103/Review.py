@@ -60,6 +60,66 @@ print(name[0:3])
 #m 获取子序列，仅不包含最后一个字符
 # d=name[0:4]
 # print(d)
-print(name[len(name)-2:len(name)])
+# print(name[len(name)-2:len(name)])
+#
+# print(name[0:len(name)-1])
 
-print(name[0:len(name)-1])
+# li='sadqasfqwefgwg'
+# x = '_'.join(li)
+# print(x)
+#
+#
+# def sumcac(a,b):
+#     total=a+b
+#     return total
+#
+#
+#
+#
+# x = sumcac(3,6)
+# print(x)
+#
+#
+# #设计一个函数计算用户输入的内容有几个十进制数，几个大小写字母，并且返回“大小写字母有x个，数字有x个”
+# # 如调用函数传入参数"hello1hl2356!你好"后，输出大写字母0个，小写字母7个，数字5个，
+#
+#
+# def abc():
+#     x=input('please enter your string:')
+#     # print(x)
+#     upperCount=0
+#     lowerCount=0
+#     numCount=0
+#     for i in x:
+#         # print(i)
+#
+#         if i.isdecimal():
+#             # print('isdecimal')
+#             numCount+=1
+#
+#         if i.isupper():
+#             # print('isupper')
+#             upperCount+=1
+#
+#         if i.islower():
+#             # print('islower')
+#             lowerCount+=1
+#
+#
+#     # print(numCount)
+#     # print(upperCount)
+#     # print(lowerCount)
+#     #print('decimal：',numCount,'upperalphabet:',upperCount,'loweralphabet:',lowerCount)
+#
+#     return ('decimal：',numCount,'upperalphabet:',upperCount,'loweralphabet:',lowerCount)
+#
+#
+# yyy=abc()
+# print(yyy)
+
+
+a=input('please enter your name and address and hobby:',)
+print(a)
+b=a.split('，')
+print(b)
+print('姓名：',b[0],'地点：',b[1],'爱好:',b[2])
