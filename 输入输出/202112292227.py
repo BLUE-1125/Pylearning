@@ -43,8 +43,17 @@ print(newNextString)
 
 for y in range(1,11):
     first = str(y).ljust(2)
-    second = str(y * y).ljust()
+    second = str(y * y).ljust(3)
     third = str(y * y * y).ljust(4)
     print(first,end=" ")
     print(second,end = " ")
     print(third)
+
+
+print('12'.zfill(5))
+print('-3.14'.zfill(7))
+print('3.14159265359'.zfill(5))
+
+print('{}网址： “{}！”'.format('菜鸟教程','www.runoob.com'))
+print('{0}和{1}'.format('google','runoob'))
+print('{1}和{0}'.format('google','runoob'))
