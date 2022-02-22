@@ -19,33 +19,33 @@ cost<-2.5
 cost
 name <- c("Town 1"," Town 2","Town 3","Town 4"," Town 5"," Town 6"," Town 7")
 vaccinations <- c(3353, 834,72,2800,1442, 34,262
-cost <- c(2.5,1.8,1.9,1.70,1.70,2.1,2.45)
-vaccinations <- c(3353, 834,72,2800,1442, 34,262)
-cost <- c(2.5,1.8,1.9,1.70,1.70,2.1,2.45)
-name
-vaccinations
-cost
-vaccinations * cost
-total.cost <- cost*vaccinations
-cost.town <- data.frame(name,total.cost
-total.cost <- cost*vaccinations
-total.cost <- cost*vaccinations
-cost.town <- data.frame(name,total.cost)
-cost.town
-cost.town[1,2]
-need <- c(2848, 331,64,2100,113, 12,85)
-need
-cost.town$value <- cost.town$total.cost / need
-cost.town
-cost.town$name <- as.factor(cost.town$name)
-levels(cost.town$name) <- c("Kartik","Pahada","Likhu","Narku","Dunai","Sahartara","Mukot")
-cost.town$name
-levels(cost.town$name)[1] <- "abc"
-levels(cost.town$name)[3:5] <- c("b", "c", "d")
-cost.town$nam
-cost.town$namen <-
-relevel(cost.town$name, ref=“Mukot”)
-cost.town$namen <- relevel(cost.town$name, ref=“Mukot"
+                  cost <- c(2.5,1.8,1.9,1.70,1.70,2.1,2.45)
+                  vaccinations <- c(3353, 834,72,2800,1442, 34,262)
+                  cost <- c(2.5,1.8,1.9,1.70,1.70,2.1,2.45)
+                  name
+                  vaccinations
+                  cost
+                  vaccinations * cost
+                  total.cost <- cost*vaccinations
+                  cost.town <- data.frame(name,total.cost
+                                          total.cost <- cost*vaccinations
+                                          total.cost <- cost*vaccinations
+                                          cost.town <- data.frame(name,total.cost)
+                                          cost.town
+                                          cost.town[1,2]
+                                          need <- c(2848, 331,64,2100,113, 12,85)
+                                          need
+                                          cost.town$value <- cost.town$total.cost / need
+                                          cost.town
+                                          cost.town$name <- as.factor(cost.town$name)
+                                          levels(cost.town$name) <- c("Kartik","Pahada","Likhu","Narku","Dunai","Sahartara","Mukot")
+                                          cost.town$name
+                                          levels(cost.town$name)[1] <- "abc"
+                                          levels(cost.town$name)[3:5] <- c("b", "c", "d")
+                                          cost.town$nam
+                                          cost.town$namen <-
+                                            relevel(cost.town$name, ref=“Mukot”)
+                                          cost.town$namen <- relevel(cost.town$name, ref=“Mukot"
 cost.town$name <- factor(cost.town$name,
 levels=c("Mukot", "Kartik Swami", "Pahada", "Saudi",
 "Chandrapuri", "Bakola", "Sahartara"))
@@ -106,7 +106,7 @@ cost.town$name <- as.factor(cos.town$name)
 cost.town$name <- as.factor(cost.town$name)
 #把村庄名字单做一个因子变量，影响变量
 levels(cost.town$name) <- c("b","c",d,"e,"f","a","g")
-levels(cost.town$name) <- c("b","c",'d',"e,"f","a","g")
+                                          levels(cost.town$name) <- c("b","c",'d',"e,"f","a","g")
 levels(cost.town$name) <- c("b","c","d","g","e","a","f")
 cost.town$name
 #可以改变矢量里面的内容，edit a subset
@@ -141,4 +141,3 @@ load("~/.RData")
 load("~/.RData")
 load("C:/Users/Daisy/Documents/my_saved_workspace.RData")
 setwd("~")
-
