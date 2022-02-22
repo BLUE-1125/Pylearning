@@ -74,6 +74,7 @@ c('aa',"bb",'cc')
 #可以转化为字符
 as.character(c(1,2,3))
 fname='John';lname='Smith'
+kkk
 paste(fname,lname)
 #去给一个贫困国家例如尼泊尔的人民，给他们救济疫苗，有7个村庄，计算总救济费用，以及计算哪个村庄的人均救济费用最低
 name<-('Town1','Town2','Town3','Town4','Town5','Town6','Town7')
